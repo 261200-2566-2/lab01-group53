@@ -13,9 +13,9 @@ public class Main {
             n[i] = value;
         }
         Swap(n);
-        System.out.print("result = ");
+        System.out.println("result");
         for(int i = 0; i < number; i++){
-            System.out.print(n[i] + " ");
+            System.out.println(n[i] + " ");
         }
     }
     public static void Swap(int[] n){
