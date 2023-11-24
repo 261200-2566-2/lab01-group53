@@ -8,11 +8,15 @@ public class Main {
 
         for(int i = 0; i < number; i++){
             Scanner x = new Scanner(System.in);
+            System.out.print("Enter Input "+ ( i + 1 ) + " = ");
             System.out.print("Enter Input "+ (i+1) + " = ");
             int value = x.nextInt();
             n[i] = value;
         }
         Swap(n);
+        System.out.println("result");
+        for(int i = 0; i < number; i++){
+            System.out.println(n[i] + " ");
         System.out.print("result = ");
         for(int i = 0; i < number; i++){
             System.out.print(n[i] + " ");
